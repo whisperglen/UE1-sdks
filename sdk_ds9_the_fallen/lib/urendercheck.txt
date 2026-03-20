@@ -1,0 +1,16 @@
+const URender::`vftable'{for `FExec'}
+const URender::`vftable'{for `UObject'}
+public: void __thiscall URender::CleanupProjectedShadow(struct FDynamicSprite *)
+public: void __thiscall URender::DrawActorSpriteMM(struct FSceneNode *,struct FDynamicSprite *,class UCTVE_MultiMesh *)
+public: virtual void __thiscall URender::DrawPaths(struct FSceneNode *)
+public: void __thiscall URender::DrawProjectedShadow(struct FDynamicSprite *,struct FSceneNode *)
+class URender * GRender
+public: virtual class AZoneInfo * __thiscall URender::GetFogZone(class ULevel *,int)
+public: static void __cdecl URender::InternalConstructor(void *)
+public: static int URender::NumDynLightLeaves
+public: static int URender::NumDynLightSurfs
+public: void __thiscall URender::PrepareProjectedShadow(struct FDynamicSprite *,struct FSceneNode *,struct FTransTexture *,struct FMeshWedge *)
+private: static class UClass URender::PrivateStaticClass
+public: virtual void __thiscall URender::SetDistanceClipping(struct FSceneNode *)
+public: virtual void __thiscall URender::SetDistanceFogging(struct FSceneNode *)
+public: static class UClass * __cdecl URender::StaticClass(void)

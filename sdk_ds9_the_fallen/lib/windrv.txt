@@ -1,0 +1,108 @@
+
+Dump of file WinDrv.dll
+
+File Type: DLL
+
+  Section contains the following exports for WinDrv.dll
+
+    00000000 characteristics
+    3A248A77 time date stamp Wed Nov 29 06:47:51 2000
+        0.00 version
+           1 ordinal base
+          83 number of functions
+          83 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000010AA ??0UWindowsClient@@QAE@ABV0@@Z
+          2    1 0000115E ??0UWindowsClient@@QAE@XZ
+          3    2 00001235 ??0UWindowsViewport@@QAE@ABV0@@Z
+          4    3 00001221 ??0UWindowsViewport@@QAE@XZ
+          5    4 0000122B ??0WWindowsViewportWindow@@QAE@ABV0@@Z
+          6    5 0000106E ??0WWindowsViewportWindow@@QAE@PAVUWindowsViewport@@@Z
+          7    6 00001127 ??0WWindowsViewportWindow@@QAE@XZ
+          8    7 000011AE ??1UWindowsClient@@UAE@XZ
+          9    8 000010B4 ??1UWindowsViewport@@UAE@XZ
+         10    9 00001226 ??1WWindowsViewportWindow@@UAE@XZ
+         11    A 000011A4 ??2UWindowsClient@@SAPAXIPAVUObject@@VFName@@K@Z
+         12    B 000011EA ??2UWindowsClient@@SAPAXIPAW4EInternal@@@Z
+         13    C 00001091 ??2UWindowsViewport@@SAPAXIPAVUObject@@VFName@@K@Z
+         14    D 000011C7 ??2UWindowsViewport@@SAPAXIPAW4EInternal@@@Z
+         15    E 00001159 ??4UWindowsClient@@QAEAAV0@ABV0@@Z
+         16    F 00001208 ??4UWindowsViewport@@QAEAAV0@ABV0@@Z
+         17   10 00001028 ??4WWindowsViewportWindow@@QAEAAV0@ABV0@@Z
+         18   11 0001225C ??_7UWindowsClient@@6BFNotifyHook@@@
+         19   12 00012270 ??_7UWindowsClient@@6BUClient@@@
+         20   13 000124D0 ??_7UWindowsViewport@@6BFExec@@@
+         21   14 000124D4 ??_7UWindowsViewport@@6BFOutputDevice@@@
+         22   15 000124D8 ??_7UWindowsViewport@@6BUObject@@@
+         23   16 00012598 ??_7WWindowsViewportWindow@@6B@
+         24   17 00017A3C ??_C@_0BH@GBLC@WWindowsViewportWindow?$AA@
+         25   18 00001249 ?AcquireDIMouse@UWindowsViewport@@QAEXH@Z
+         26   19 00001253 ?CauseInputEvent@UWindowsViewport@@QAEHHW4EInputAction@@M@Z
+         27   1A 0000103C ?CloseWindow@UWindowsViewport@@UAEXXZ
+         28   1B 000010E1 ?Destroy@UWindowsClient@@UAEXXZ
+         29   1C 00001109 ?Destroy@UWindowsViewport@@UAEXXZ
+         30   1D 0000114F ?EnableViewportWindows@UWindowsClient@@UAEXKH@Z
+         31   1E 000010B9 ?EndFullscreen@UWindowsViewport@@QAEXXZ
+         32   1F 000011BD ?EnumDriversCallbackA@UWindowsClient@@SGHPAU_GUID@@PAD1PAX@Z
+         33   20 0000108C ?EnumModesCallback@UWindowsClient@@SGJPAU_DDSURFACEDESC@@PAX@Z
+         34   21 00001145 ?Exec@UWindowsClient@@UAEHPBDAAVFOutputDevice@@@Z
+         35   22 00001032 ?Exec@UWindowsViewport@@UAEHPBDAAVFOutputDevice@@@Z
+         36   23 0000100F ?FindAvailableModes@UWindowsViewport@@QAEXXZ
+         37   24 00001055 ?GetOuterUWindowsClient@UWindowsViewport@@QBEPAVUWindowsClient@@XZ
+         38   25 0000101E ?GetPackageName@WWindowsViewportWindow@@UAEPBDXZ
+         39   26 000010E6 ?GetWindow@UWindowsViewport@@UAEPAXXZ
+         40   27 000011F4 ?GetWindowClassName@WWindowsViewportWindow@@UAEXPAD@Z
+         41   28 00001258 ?Init@UWindowsClient@@UAEXPAVUEngine@@@Z
+         42   29 00001087 ?InternalConstructor@UWindowsClient@@SAXPAX@Z
+         43   2A 000011B8 ?InternalConstructor@UWindowsViewport@@SAXPAX@Z
+         44   2B 000010BE ?IsFullscreen@UWindowsViewport@@UAEHXZ
+         45   2C 00001212 ?JoystickInputEvent@UWindowsViewport@@QAEHMW4EInputKey@@MH@Z
+         46   2D 0000119F ?Lock@UWindowsViewport@@UAEHVFPlane@@00KPAEPAH@Z
+         47   2E 00001244 ?MakeCurrent@UWindowsClient@@UAEXPAVUViewport@@@Z
+         48   2F 000011FE ?NewViewport@UWindowsClient@@UAEPAVUViewport@@VFName@@@Z
+         49   30 0000104B ?NotifyDestroy@UWindowsClient@@UAEXPAX@Z
+         50   31 000011D1 ?OpenWindow@UWindowsViewport@@UAEXKHHHHH@Z
+         51   32 00001005 ?PostEditChange@UWindowsClient@@UAEXXZ
+         52   33 0001B7B0 ?PrivateStaticClass@UWindowsClient@@0VUClass@@A
+         53   34 0001BDB0 ?PrivateStaticClass@UWindowsViewport@@0VUClass@@A
+         54   35 000010F0 ?Repaint@UWindowsViewport@@UAEXH@Z
+         55   36 00001019 ?ResizeViewport@UWindowsViewport@@UAEHKHHH@Z
+         56   37 00001230 ?SetModeCursor@UWindowsViewport@@UAEXXZ
+         57   38 000010C3 ?SetMouseCapture@UWindowsViewport@@UAEXHHH@Z
+         58   39 0000111D ?SetTopness@UWindowsViewport@@QAEXXZ
+         59   3A 000011D6 ?ShowViewportWindows@UWindowsClient@@UAEXKH@Z
+         60   3B 000010F5 ?ShutdownAfterError@UWindowsClient@@UAEXXZ
+         61   3C 00001096 ?ShutdownAfterError@UWindowsViewport@@UAEXXZ
+         62   3D 0000102D ?StaticClass@UWindowsClient@@SAPAVUClass@@XZ
+         63   3E 000010A0 ?StaticClass@UWindowsViewport@@SAPAVUClass@@XZ
+         64   3F 00001168 ?StaticConstructor@UWindowsClient@@QAEXXZ
+         65   40 0000107D ?Tick@UWindowsClient@@UAEXXZ
+         66   41 00001064 ?ToggleFullscreen@UWindowsViewport@@QAEXXZ
+         67   42 00001050 ?TryRenderDevice@UWindowsViewport@@QAEXPBDHHHH@Z
+         68   43 0000124E ?Unlock@UWindowsViewport@@UAEXH@Z
+         69   44 00001023 ?UpdateInput@UWindowsViewport@@UAEXH@Z
+         70   45 000010D7 ?UpdateWindowFrame@UWindowsViewport@@UAEXXZ
+         71   46 00001177 ?ViewportWndProc@UWindowsViewport@@QAEJIIJ@Z
+         72   47 0000119A ?WndProc@WWindowsViewportWindow@@UAEJIIJ@Z
+         73   48 00001217 ?ddEndMode@UWindowsClient@@QAEXXZ
+         74   49 00001113 ?ddError@@YAPADJ@Z
+         75   4A 00001203 ?ddSetMode@UWindowsViewport@@QAEHHHH@Z
+         76   4B 000010A5 ?diError@@YAPADJ@Z
+         77   4C 0000117C ?diSetupKeyboardMouse@UWindowsViewport@@QAEHXZ
+         78   4D 000011E5 ?diShutdown@UWindowsClient@@QAEXXZ
+         79   4E 00001014 ?diShutdownKeyboardMouse@UWindowsViewport@@QAEXXZ
+         81   4F 00017C94 GPackage
+         80   50 00001078 _DllMain@12
+         82   51 0001B7A8 autoclassUWindowsClient
+         83   52 0001BDA8 autoclassUWindowsViewport
+
+  Summary
+
+        6000 .data
+        4000 .idata
+        5000 .rdata
+        2000 .reloc
+        4000 .rsrc
+       11000 .text

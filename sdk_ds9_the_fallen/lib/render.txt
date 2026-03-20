@@ -1,0 +1,121 @@
+
+Dump of file Render.dll
+
+File Type: DLL
+
+  Section contains the following exports for Render.dll
+
+    00000000 characteristics
+    3A1491DA time date stamp Fri Nov 17 04:03:06 2000
+        0.00 version
+           1 ordinal base
+          97 number of functions
+          97 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0000126C ??0FLightManagerBase@@QAE@ABV0@@Z
+          2    1 00001118 ??0FLightManagerBase@@QAE@XZ
+          3    2 00001262 ??0FSpanBuffer@@QAE@ABV0@AAVFMemStack@@@Z
+          4    3 000010D2 ??0FSpanBuffer@@QAE@XZ
+          5    4 000010E1 ??0URender@@QAE@ABV0@@Z
+          6    5 0000125D ??0URender@@QAE@XZ
+          7    6 000012CB ??0myclass@@QAE@ABV0@@Z
+          8    7 0000136B ??0myclass@@QAE@XZ
+          9    8 000012F3 ??1URender@@UAE@XZ
+         10    9 000011FE ??2URender@@SAPAXIPAVUObject@@VFName@@K@Z
+         11    A 0000118B ??2URender@@SAPAXIPAW4EInternal@@@Z
+         12    B 00001203 ??4FLightManagerBase@@QAEAAV0@ABV0@@Z
+         13    C 00001069 ??4FSpanBuffer@@QAEAAV0@ABV0@@Z
+         14    D 00001226 ??4URender@@QAEAAV0@ABV0@@Z
+         15    E 000011CC ??4myclass@@QAEAAV0@ABV0@@Z
+         16    F 00080000 ??_7FLightManagerBase@@6B@
+         17   10 0008002C ??_7URender@@6BFExec@@@
+         18   11 00080030 ??_7URender@@6BUObject@@@
+         19   12 00081204 ??_7myclass@@6B@
+         20   13 0008BE4C ??_C@_03MPFC@abc?$AA@
+         21   14 00001195 ?AllocIndex@FSpanBuffer@@QAEXFFPAVFMemStack@@@Z
+         22   15 000011BD ?AllocIndexForScreen@FSpanBuffer@@QAEXFFPAVFMemStack@@@Z
+         23   16 000012D5 ?AssertEmpty@FSpanBuffer@@QAEXPAD@Z
+         24   17 0000137F ?AssertGoodEnough@FSpanBuffer@@QAEXPAD@Z
+         25   18 00001302 ?AssertNotEmpty@FSpanBuffer@@QAEXPAD@Z
+         26   19 00001127 ?AssertValid@FSpanBuffer@@QAEXPAD@Z
+         27   1A 00001055 ?BoundVisible@URender@@UAEHPAUFSceneNode@@PAVFBox@@PAVFSpanBuffer@@AAUFScreenBounds@@@Z
+         28   1B 000012AD ?BoxIsVisible@FSpanBuffer@@QAEHHHHH@Z
+         29   1C 00001140 ?CleanupProjectedShadow@URender@@QAEXPAUFDynamicSprite@@@Z
+         30   1D 000012C1 ?ClipBspSurf@URender@@QAEHHAAPAPAUFTransform@@@Z
+         31   1E 00001082 ?ClipDecal@URender@@QAEHPAUFSceneNode@@PAVFDecal@@PAVUModel@@PAVFBspSurf@@PAUFSavedPoly@@AAPAPAUFTransTexture@@AAH@Z
+         32   1F 0000101E ?CopyFromRaster@FSpanBuffer@@QAEHAAV1@FFPAUFRasterSpan@@@Z
+         33   20 00001253 ?CopyFromRasterUpdate@FSpanBuffer@@QAEHAAV1@FFPAUFRasterSpan@@@Z
+         34   21 000011A4 ?CopyIndexFrom@FSpanBuffer@@QAEXABV1@PAVFMemStack@@@Z
+         35   22 0000119F ?CreateChildFrame@URender@@UAEPAUFSceneNode@@PAU2@PAVFSpanBuffer@@PAVULevel@@HHMABVFPlane@@ABVFCoords@@PAUFScreenBounds@@@Z
+         36   23 000011A9 ?CreateMasterFrame@URender@@UAEPAUFSceneNode@@PAVUViewport@@VFVector@@VFRotator@@PAUFScreenBounds@@@Z
+         37   24 0000100F ?Deproject@URender@@UAEHPAUFSceneNode@@HHAAVFVector@@@Z
+         38   25 0000100A ?Destroy@URender@@UAEXXZ
+         39   26 00001096 ?DrawActor@URender@@UAEXPAUFSceneNode@@PAVAActor@@@Z
+         40   27 00001280 ?DrawActorSprite@URender@@QAEXPAUFSceneNode@@PAUFDynamicSprite@@@Z
+         41   28 00001113 ?DrawActorSpriteMM@URender@@QAEXPAUFSceneNode@@PAUFDynamicSprite@@PAVUCTVE_MultiMesh@@@Z
+         42   29 000011AE ?DrawBox@URender@@UAEXPAUFSceneNode@@VFPlane@@KVFVector@@2@Z
+         43   2A 0000120D ?DrawCircle@URender@@UAEXPAUFSceneNode@@VFPlane@@KAAVFVector@@M@Z
+         44   2B 0000103C ?DrawFrame@URender@@QAEXPAUFSceneNode@@@Z
+         45   2C 00001366 ?DrawLodMesh@URender@@QAEXPAUFDynamicSprite@@PAUFSceneNode@@PAVAActor@@2PAVFSpanBuffer@@PAVAZoneInfo@@ABVFCoords@@PAUFVolActorLink@@PAUFActorLink@@K@Z
+         46   2D 0000119A ?DrawMesh@URender@@QAEXPAUFDynamicSprite@@PAUFSceneNode@@PAVAActor@@2PAVFSpanBuffer@@PAVAZoneInfo@@ABVFCoords@@PAUFVolActorLink@@PAUFActorLink@@K@Z
+         47   2E 000011EA ?DrawPaths@URender@@UAEXPAUFSceneNode@@@Z
+         48   2F 000010BE ?DrawProjectedShadow@URender@@QAEXPAUFDynamicSprite@@PAUFSceneNode@@@Z
+         49   30 00001334 ?DrawStats@URender@@QAEXPAUFSceneNode@@@Z
+         50   31 00001073 ?DrawWorld@URender@@UAEXPAUFSceneNode@@@Z
+         51   32 000B1668 ?DynLightLeaves@URender@@2PAHA
+         52   33 000AF428 ?DynLightSurfs@URender@@2PAHA
+         53   34 0000137A ?Dynamic@URender@@QAEAAPAUFDynamicItem@@HH@Z
+         54   35 000B4830 ?DynamicsCache@URender@@2PAUFDynamicsCache@1@A
+         55   36 00001271 ?Exec@URender@@UAEHPBDAAVFOutputDevice@@@Z
+         56   37 0000114F ?FinishMasterFrame@URender@@UAEXXZ
+         57   38 0008CF80 ?GDynMem@@3VFMemStack@@A
+         58   39 0008A5DC ?GLightManager@@3PAVFLightManagerBase@@A
+         59   3A 000B48B8 ?GRender@@3PAVURender@@A
+         60   3B 0008CF70 ?GSceneMem@@3VFMemStack@@A
+         61   3C 000010B9 ?GetFogZone@URender@@UAEPAVAZoneInfo@@PAVULevel@@H@Z
+         62   3D 000010AA ?GetValidRange@FSpanBuffer@@QAEXPAF0@Z
+         63   3E 0000130C ?GetVisibleSurfs@URender@@UAEXPAVUViewport@@AAV?$TArray@H@@@Z
+         64   3F 000010F5 ?GlobalLighting@URender@@UAEXHPAVAActor@@AAMAAVFPlane@@@Z
+         65   40 0000132F ?Init@URender@@UAEXPAVUEngine@@@Z
+         66   41 00001370 ?InternalConstructor@URender@@SAXPAX@Z
+         67   42 000B48A4 ?LeafLights@URender@@2PAPAUFVolActorLink@@A
+         68   43 00001122 ?LeafVolumetricLighting@URender@@QAEXPAUFSceneNode@@PAVUModel@@H@Z
+         69   44 000B4734 ?MaxLeafLights@URender@@2HA
+         70   45 000B466C ?MaxSurfLights@URender@@2HA
+         71   46 000011C2 ?MergeWith@FSpanBuffer@@QAEXABV1@@Z
+         72   47 000B1664 ?NumDynLightLeaves@URender@@2HA
+         73   48 000B4814 ?NumDynLightSurfs@URender@@2HA
+         74   49 00001154 ?OccludeBsp@URender@@QAEXPAUFSceneNode@@@Z
+         75   4A 00001019 ?OccludeFrame@URender@@QAEXPAUFSceneNode@@@Z
+         76   4B 000AEB04 ?PointCache@URender@@2PAUFStampedPoint@1@A
+         77   4C 00001249 ?PostRender@URender@@UAEXPAUFSceneNode@@@Z
+         78   4D 0000135C ?PreRender@URender@@UAEXPAUFSceneNode@@@Z
+         79   4E 000011D6 ?Precache@URender@@UAEXPAVUViewport@@@Z
+         80   4F 00001131 ?PrepareProjectedShadow@URender@@QAEXPAUFDynamicSprite@@PAUFSceneNode@@PAUFTransTexture@@PAUFMeshWedge@@@Z
+         81   50 000AB5B8 ?PrivateStaticClass@URender@@0VUClass@@A
+         82   51 0000104B ?Project@URender@@UAEHPAUFSceneNode@@ABVFVector@@AAM2PAM@Z
+         83   52 00001023 ?Release@FSpanBuffer@@QAEXXZ
+         84   53 00001064 ?SetDistanceClipping@URender@@UAEXPAUFSceneNode@@@Z
+         85   54 000012A3 ?SetDistanceFogging@URender@@UAEXPAUFSceneNode@@@Z
+         86   55 00001217 ?SetupDynamics@URender@@QAEXPAUFSceneNode@@PAVAActor@@@Z
+         87   56 0000133E ?ShowStat@URender@@QAAXPAUFSceneNode@@PBDZZ
+         88   57 000AEB00 ?Stamp@URender@@2KA
+         89   58 000010CD ?StaticClass@URender@@SAPAVUClass@@XZ
+         90   59 00001046 ?StaticConstructor@URender@@QAEXXZ
+         91   5A 000B48A0 ?SurfLights@URender@@2PAPAUFActorLink@@A
+         92   5B 000B4820 ?VectorMem@URender@@2VFMemStack@@A
+         93   5C 0000128A ?timtim@myclass@@UAEXXZ
+         94   5D 000012E4 ?xyzzy@myclass@@UAGXABVFString@@H@Z
+         96   5E 0008A5D4 GPackage
+         95   5F 000010B4 _DllMain@12
+         97   60 000B1428 autoclassURender
+
+  Summary
+
+       2D000 .data
+        3000 .idata
+        A000 .rdata
+        7000 .reloc
+       7F000 .text
